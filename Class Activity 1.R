@@ -47,6 +47,11 @@ Trip = c(17.8, 17.9, 13.2, 16)
 #creating one large for
 peakinfo = data.frame(Name=Name, Elevation=Elevation, Climb=Climb, Trip=Trip)
 
+#Prompt 3 In Class Prompt(Self Led)----
+tempf = c(-44, 0, 20, 35)
+
+tempc = (tempf - 32) * (5/9)
+
 
 
 
