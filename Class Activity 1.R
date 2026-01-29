@@ -52,10 +52,19 @@ tempf = c(-44, 0, 20, 35)
 
 tempc = (tempf - 32) * (5/9)
 
+#HOMEWORK 1 ----
 
+#Question 1
+peaksm = peaks*.3048
 
+#Question 2
 
+#Question 3
 
+longrte = peakinfo[which.max(peakinfo$Trip), ]
+longrte
+
+#Question 4
 
 
 
