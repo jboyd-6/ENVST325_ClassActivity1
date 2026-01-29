@@ -1,4 +1,4 @@
-# In-Class Prompts ---- 
+# Pt 1 In-Class Prompts ---- 
 # This adds a label in a comment
 
 #R does calculations; example
@@ -31,3 +31,29 @@ highpeaks$elev
 highpeaks[1,2]
 #show all of row one
 highpeaks[,1]
+
+
+#Prompt 1 - In Class Prompt(Self Led )----
+snow = c(2.5, 3, 5, 4.5)
+#convert to CM
+snowcm = snow/2.54
+
+# Prompt 2 In Class Prompt(Self Led )----
+Name = c("Mount Haystack", "Mount Skylight", "Dix Mountain", "Gray Peak")
+Elevation = c(4960, 4926, 4857, 4840)
+Climb = c(3670, 4265, 2800, 4178)
+Trip = c(17.8, 17.9, 13.2, 16)
+
+#creating one large for
+peakinfo = data.frame(Name=Name, Elevation=Elevation, Climb=Climb, Trip=Trip)
+
+
+
+
+
+
+
+
+
+
+
