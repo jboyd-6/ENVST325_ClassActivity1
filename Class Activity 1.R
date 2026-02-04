@@ -55,7 +55,9 @@ tempc = (tempf - 32) * (5/9)
 #HOMEWORK 1 ----
 
 #Question 1
-peaksm = peaks*.3048
+Elevationm = Elevation*.3048
+peakinfom = data.frame(Name=Name, Elevation=Elevationm, Climb=Climb, Trip=Trip)
+
 
 #Question 2
 
@@ -65,6 +67,8 @@ longrte = peakinfo[which.max(peakinfo$Trip), ]
 longrte
 
 #Question 4
+
+peaksm
 
 
 
